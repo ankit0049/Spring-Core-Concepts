@@ -1,6 +1,7 @@
 package com.demo.springconcepts.controller;
 
 import com.demo.springconcepts.service.GreetingService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,9 @@ public class GreetingController {
     GreetingService greetingService;
     @GetMapping
     public String getGreeting() {
-        logger.info("Controller Layer Invoked Here");
+
+        logger.info("Controller Layer Invoked Here")
+
         return greetingService.getGreetings();
     }
 

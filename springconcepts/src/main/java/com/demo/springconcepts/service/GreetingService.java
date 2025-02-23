@@ -7,12 +7,12 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class GreetingService {
-
     // Create a Logger Instance to log custom messages
     private static final Logger logger = LoggerFactory.getLogger(GreetingService.class);
 
     public String getGreetings(){
 	   logger.info("Service Layer Invoked Here");
+    public String getGreetings(){
 	   return "Hello Ankit Rajput";
     }
 
