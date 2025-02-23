@@ -19,7 +19,7 @@ public class GreetingController {
     @GetMapping
     public String getGreeting() {
 
-        logger.info("Controller Layer Invoked Here")
+        logger.info("Controller Layer Invoked Here");
 
         return greetingService.getGreetings();
     }

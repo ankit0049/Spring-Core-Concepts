@@ -12,8 +12,7 @@ public class GreetingService {
 
     public String getGreetings(){
 	   logger.info("Service Layer Invoked Here");
-    public String getGreetings(){
 	   return "Hello Ankit Rajput";
-    }
+     }
 
 }
